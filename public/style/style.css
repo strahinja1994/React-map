@@ -1,0 +1,113 @@
+@font-face {
+  font-family: InterMedium;
+  src: url(../fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: InterRegular;
+  src: url(../fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: InterBold;
+  src: url(../fonts/Inter-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {
+  color: #2B283A;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.container {
+  width: 550px;
+  min-height: 704px;
+  margin: 100px auto 20px;
+  background-color: #FFFFFF;
+}
+
+nav {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.nav__logo {
+  width: 24px;
+  height: 24px;
+}
+
+.nav__title {
+  font-size: 15px;
+  font-family: InterMedium;
+  font-weight: 500;
+  padding: 20px 7px 20px;
+  color: #FFFFFF;
+}
+
+section {
+  margin: 0 40px 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__image {
+  width: 125px;
+  height: 168px;
+  margin-right: 19px;
+}
+
+.main__headline {
+  display: flex;
+  margin: 15px 0 5px;
+}
+
+.main__tag {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.main__state {
+  font-family: InterRegular;
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  padding-right: 12px;
+}
+
+.main__link {
+  color: #918E9B;
+  font-family: InterRegular;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.main__title {
+  font-family: InterBold;
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 23px;
+}
+
+.main__date {
+  font-family: InterBold;
+  font-weight: 700;
+  font-size: 10px;
+  padding-bottom: 9px;
+}
+
+.main__text {
+  font-family: InterRegular;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}/*# sourceMappingURL=style.css.map */

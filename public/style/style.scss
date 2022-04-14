@@ -1,0 +1,103 @@
+@import "variables";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+h1,h2,h3,h4,p {
+    color:$primaryColor;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    width:550px;
+    min-height: 704px;
+    margin:100px auto 20px;
+    background-color: $titleColor;
+}
+
+nav{
+    background-color: $navColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40px;
+}
+
+.nav__logo{
+    width:24px;
+    height:24px;
+}
+
+.nav__title{
+    font-size: 15px;
+    font-family: InterMedium;
+    font-weight: 500;
+    padding:20px 7px 20px;
+    color:$titleColor;
+}
+
+section {
+    margin:0 40px 36px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.section__image{
+    width:125px;
+    height: 168px;
+    margin-right:19px;
+}
+
+.main__headline{
+    display:flex;
+    margin:15px 0 5px;
+}
+
+.main__tag{
+    width:10px;
+    height:10px;
+    margin-right: 5px;
+}
+
+.main__state{
+    font-family: InterRegular;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    padding-right: 12px;
+}
+
+.main__link{
+    color:$linkColor;
+    font-family: InterRegular;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.main__title{
+    font-family: InterBold;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 23px;
+}
+
+.main__date{
+    font-family: InterBold;
+    font-weight:700;
+    font-size:10px;
+    padding-bottom: 9px;
+}
+
+.main__text{
+    font-family: InterRegular;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
